@@ -1,12 +1,13 @@
 // ====== Config (Edit these) ======
-const githubUserName = "YourUserName"; // <-- تغییر بده
-const contactEmail = "yourEmail@example.com"; // <-- تغییر بده
+const githubUserName = "danial87j"; // <-- تغییر بده
+const contactEmail = "danialbarbodjalali@gmail.com"; // <-- تغییر بده
 
 // Featured repo names (exact repo names)
 const featuredRepoNames = [
-  "portfolio",
-  "restaurant-website",
-  "mini-projects"
+  "Web-messenger",
+  "Superior-IQ",
+  "",
+
 ];
 
 // ====== Language ======
