@@ -59,8 +59,8 @@ const translations = {
     projectsHint: "Auto-loaded from GitHub (you can pin featured ones).",
     featuredButton: "Featured",
     allReposButton: "All Repos",
-    projectsNoteStrong: "Tip:",
-    projectsNoteText: "Add 2–3 repos first, then set one as “featured” in the JS config.",
+    projectsNoteStrong: "",
+    projectsNoteText: "",
 
     contactTitle: "Contact",
     contactHint: "Fastest way to reach me.",
@@ -144,8 +144,8 @@ Links (optional):`
     projectsHint: "Automatisch von GitHub geladen (du kannst ausgewählte Projekte anheften).",
     featuredButton: "Ausgewählt",
     allReposButton: "Alle Repos",
-    projectsNoteStrong: "Tipp:",
-    projectsNoteText: "Füge zuerst 2–3 Repos hinzu und markiere dann eins im JS als „featured“.",
+    projectsNoteStrong: "",
+    projectsNoteText: "",
 
     contactTitle: "Kontakt",
     contactHint: "Der schnellste Weg, mich zu erreichen.",
