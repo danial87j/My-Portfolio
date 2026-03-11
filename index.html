@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Daniel | Portfolio</title>
+  <meta
+    name="description"
+    content="Daniel's portfolio — Junior Web Developer. Clean, responsive, human-friendly websites."
+  />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+    rel="stylesheet"
+  />
+
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+  <div class="backgroundGlow"></div>
+
+  <header class="topNav">
+    <a class="brandLogo" href="#home">Daniel</a>
+
+    <nav class="navLinks">
+      <a class="navLink" href="#about" id="navAbout">About</a>
+      <a class="navLink" href="#skills" id="navSkills">Skills</a>
+      <a class="navLink" href="#projects" id="navProjects">Projects</a>
+      <a class="navLink" href="#contact" id="navContact">Contact</a>
+    </nav>
+
+    <div class="navActions">
+      <button class="langButton" id="langToggleButton" type="button">DE</button>
+
+      <button class="menuButton" id="menuButton" aria-label="Open menu">
+        <span class="menuLine"></span>
+        <span class="menuLine"></span>
+        <span class="menuLine"></span>
+      </button>
+    </div>
+  </header>
+
+  <div class="mobileMenu" id="mobileMenu">
+    <a class="mobileLink" href="#about" id="mobileNavAbout">About</a>
+    <a class="mobileLink" href="#skills" id="mobileNavSkills">Skills</a>
+    <a class="mobileLink" href="#projects" id="mobileNavProjects">Projects</a>
+    <a class="mobileLink" href="#contact" id="mobileNavContact">Contact</a>
+  </div>
+
+  <main class="pageWrap" id="home">
+    <section class="heroSection">
+      <div class="heroLeft">
+        <div class="statusPill">
+          <span class="statusDot"></span>
+          <span id="statusText">Available for small projects</span>
+        </div>
+
+        <h1 class="heroTitle">
+          <span id="heroGreeting">Hi, I’m</span>
+          <span class="accentText">Daniel</span>.
+        </h1>
+
+        <p class="heroSubtitle" id="heroSubtitle">
+          Junior Web Developer in Germany. I build clean, responsive websites that feel good to use.
+        </p>
+
+        <div class="heroButtons">
+          <a class="primaryButton" id="githubButton" href="#" target="_blank" rel="noreferrer">
+            <span id="githubButtonText">View GitHub</span>
+          </a>
+
+          <a class="secondaryButton" href="#projects" id="seeProjectsButton">
+            See Projects
+          </a>
+        </div>
+
+        <div class="miniStats">
+          <div class="statCard">
+            <div class="statNumber" id="repoCount">—</div>
+            <div class="statLabel" id="repoLabel">Public Repos</div>
+          </div>
+
+          <div class="statCard">
+            <div class="statNumber" id="followerCount">—</div>
+            <div class="statLabel" id="followerLabel">Followers</div>
+          </div>
+
+          <div class="statCard">
+            <div class="statNumber">HTML/CSS/JS/PHP</div>
+            <div class="statLabel" id="stackLabel">Main Stack</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="heroRight">
+        <div class="profileCard">
+          <div class="profileTop">
+            <div class="avatarCircle" aria-hidden="true">
+              <span class="avatarLetter">D</span>
+            </div>
+
+            <div class="profileMeta">
+              <div class="profileName">Daniel</div>
+              <div class="profileRole" id="profileRole">Junior Web Developer</div>
+            </div>
+          </div>
+
+          <div class="profileDivider"></div>
+
+          <div class="profileList">
+            <div class="profileItem">
+              <span class="profileKey" id="focusKey">Focus</span>
+              <span class="profileValue" id="focusValue">Small business sites, landing pages</span>
+            </div>
+
+            <div class="profileItem">
+              <span class="profileKey" id="locationKey">Location</span>
+              <span class="profileValue" id="locationValue">Germany</span>
+            </div>
+
+            <div class="profileItem">
+              <span class="profileKey" id="strengthKey">Strength</span>
+              <span class="profileValue" id="strengthValue">Simple, fast, responsive UI</span>
+            </div>
+          </div>
+
+          <div class="profileActions">
+            <a class="chipLink" id="githubChip" href="#" target="_blank" rel="noreferrer">GitHub</a>
+            <a class="chipLink" href="#contact" id="contactChip">Contact</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contentSection" id="about">
+      <div class="sectionHeader">
+        <h2 class="sectionTitle" id="aboutTitle">About</h2>
+        <p class="sectionHint" id="aboutHint">Short, honest, and human.</p>
+      </div>
+
+      <div class="twoColumnGrid">
+        <div class="glassCard">
+          <p class="bodyText" id="aboutText1">
+            I’m a junior web developer based in Germany. I enjoy building websites that are clean, fast,
+            and easy to use. I work mainly with HTML, CSS, JavaScript, and PHP, and I’m currently focused
+            on real-world projects that help small businesses and personal brands.
+          </p>
+
+          <p class="bodyText mutedText" id="aboutText2">
+            I like simple design, smooth micro-interactions, and code that stays understandable.
+          </p>
+        </div>
+
+        <div class="glassCard">
+          <div class="highlightList">
+            <div class="highlightItem">
+              <div class="highlightTitle" id="highlight1Title">What I can build</div>
+              <div class="highlightText" id="highlight1Text">
+                Landing pages, portfolios, small business sites, contact forms
+              </div>
+            </div>
+
+            <div class="highlightItem">
+              <div class="highlightTitle" id="highlight2Title">What I care about</div>
+              <div class="highlightText" id="highlight2Text">
+                Speed, clarity, mobile-first design, nice UX
+              </div>
+            </div>
+
+            <div class="highlightItem">
+              <div class="highlightTitle" id="highlight3Title">Next goals</div>
+              <div class="highlightText" id="highlight3Text">
+                More projects, stronger backend skills, better UI polish
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contentSection" id="skills">
+      <div class="sectionHeader">
+        <h2 class="sectionTitle" id="skillsTitle">Skills</h2>
+        <p class="sectionHint" id="skillsHint">Things I use and improve every week.</p>
+      </div>
+
+      <div class="skillsGrid">
+        <div class="skillChip">HTML5</div>
+        <div class="skillChip">CSS3</div>
+        <div class="skillChip">JavaScript</div>
+        <div class="skillChip">PHP</div>
+        <div class="skillChip">Responsive Design</div>
+        <div class="skillChip">Git &amp; GitHub</div>
+        <div class="skillChip">UI Polish</div>
+        <div class="skillChip">Basic SEO</div>
+      </div>
+    </section>
+
+    <section class="contentSection" id="projects">
+      <div class="sectionHeader">
+        <h2 class="sectionTitle" id="projectsTitle">Projects</h2>
+        <p class="sectionHint" id="projectsHint">
+          Auto-loaded from GitHub (you can pin featured ones).
+        </p>
+      </div>
+
+      <div class="projectsControls">
+        <button class="toggleButton isActive" id="featuredButton" type="button">Featured</button>
+        <button class="toggleButton" id="allReposButton" type="button">All Repos</button>
+      </div>
+
+      <div class="projectsGrid" id="projectsGrid">
+        <!-- Filled by JS -->
+      </div>
+
+      <div class="noteCard" id="projectsNote">
+        <strong id="projectsNoteStrong">Tip:</strong>
+        <span id="projectsNoteText">
+          Add 2–3 repos first, then set one as “featured” in the JS config.
+        </span>
+      </div>
+    </section>
+
+    <section class="contentSection" id="contact">
+      <div class="sectionHeader">
+        <h2 class="sectionTitle" id="contactTitle">Contact</h2>
+        <p class="sectionHint" id="contactHint">Fastest way to reach me.</p>
+      </div>
+
+      <div class="twoColumnGrid">
+        <div class="glassCard">
+          <p class="bodyText" id="contactText">
+            If you want a simple website (portfolio, landing page, small business site), message me and
+            tell me what you need. I reply fast and keep it clear.
+          </p>
+
+          <div class="contactRow">
+            <span class="contactLabel" id="emailLabel">Email</span>
+            <a class="contactValue" id="emailLink" href="#">danialbarbodjalali@gmail.com</a>
+          </div>
+
+          <div class="contactRow">
+            <span class="contactLabel" id="githubLabel">GitHub</span>
+            <a class="contactValue" id="githubLink" href="#" target="_blank" rel="noreferrer">
+             https://github.com/danial87j
+            </a>
+          </div>
+        </div>
+
+        <div class="glassCard">
+          <form class="contactForm" id="contactForm">
+            <label class="inputLabel">
+              <span id="nameLabel">Your Name</span>
+              <input
+                class="textInput"
+                type="text"
+                name="name"
+                id="nameInput"
+                placeholder="John Doe"
+                required
+              />
+            </label>
+
+            <label class="inputLabel">
+              <span id="messageLabel">Message</span>
+              <textarea
+                class="textArea"
+                name="message"
+                id="messageInput"
+                placeholder="Tell me what you want to build..."
+                required
+              ></textarea>
+            </label>
+
+            <button class="primaryButton" type="submit" id="copyMessageButton">
+              Copy Message Template
+            </button>
+
+            <p class="formHint" id="formHint">
+              This will copy a clean message you can paste into email/DM.
+            </p>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footerBar">
+      <div class="footerLeft">© <span id="currentYear"></span> Daniel</div>
+
+      <div class="footerRight">
+        <a class="footerLink" href="#home" id="topLink">Top</a>
+        <a class="footerLink" id="footerGitHub" href="#" target="_blank" rel="noreferrer">GitHub</a>
+      </div>
+    </footer>
+  </main>
+
+  <script src="./main.js"></script>
+</body>
+</html>
