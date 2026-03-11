@@ -60,7 +60,7 @@ const translations = {
     featuredButton: "Featured",
     allReposButton: "All Repos",
     projectsNoteStrong: "",
-    projectsNoteText: "",
+    projectsNoteText: "Featured Repos ",
 
     contactTitle: "Contact",
     contactHint: "Fastest way to reach me.",
@@ -145,7 +145,7 @@ Links (optional):`
     featuredButton: "Ausgewählt",
     allReposButton: "Alle Repos",
     projectsNoteStrong: "",
-    projectsNoteText: "",
+    projectsNoteText: "Featured Repos.",
 
     contactTitle: "Kontakt",
     contactHint: "Der schnellste Weg, mich zu erreichen.",
