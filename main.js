@@ -33,11 +33,11 @@ const translations = {
 
     profileRole: "Junior Web Developer",
     focusKey: "Focus",
-    focusValue: "Small business sites, landing pages",
+    focusValue: "Small business sites, Learning",
     locationKey: "Location",
     locationValue: "Germany",
     strengthKey: "Strength",
-    strengthValue: "Simple, fast, responsive UI",
+    strengthValue: "Fast Learner | Problem Solving | Passion for Learning",
     contactChip: "Contact",
 
     aboutTitle: "About",
@@ -46,9 +46,9 @@ const translations = {
     aboutText2: "I like simple design, smooth micro-interactions, and code that stays understandable.",
 
     highlight1Title: "What I can build",
-    highlight1Text: "Landing pages, portfolios, small business sites, contact forms",
+    highlight1Text: "Landing pages, small business sites",
     highlight2Title: "What I care about",
-    highlight2Text: "Speed, clarity, mobile-first design, nice UX",
+    highlight2Text: "Quality, clarity, nice UX",
     highlight3Title: "Next goals",
     highlight3Text: "More projects, stronger backend skills, better UI polish",
 
@@ -56,7 +56,7 @@ const translations = {
     skillsHint: "Things I use and improve every week.",
 
     projectsTitle: "Projects",
-    projectsHint: "Auto-loaded from GitHub (you can pin featured ones).",
+    projectsHint: "",
     featuredButton: "Featured",
     allReposButton: "All Repos",
     projectsNoteStrong: "",
@@ -64,7 +64,7 @@ const translations = {
 
     contactTitle: "Contact",
     contactHint: "Fastest way to reach me.",
-    contactText: "If you want a simple website (portfolio, landing page, small business site), message me and tell me what you need. I reply fast and keep it clear.",
+    contactText: "If you want a website , message me and tell me what you need.",
     emailLabel: "Email",
     githubLabel: "GitHub",
     nameLabel: "Your Name",
@@ -118,11 +118,11 @@ Links (optional):`
 
     profileRole: "Junior Webentwickler",
     focusKey: "Fokus",
-    focusValue: "Websites für kleine Unternehmen, Landingpages",
+    focusValue: "Websites für kleine Unternehmen, Lernen",
     locationKey: "Standort",
     locationValue: "Deutschland",
     strengthKey: "Stärke",
-    strengthValue: "Einfaches, schnelles, responsives UI",
+    strengthValue: "Schneller Lerner | Problemlösungskompetenz | Leidenschaft für das Lernen",
     contactChip: "Kontakt",
 
     aboutTitle: "Über mich",
@@ -131,9 +131,9 @@ Links (optional):`
     aboutText2: "Ich mag schlichtes Design, weiche Mikro-Interaktionen und Code, der verständlich bleibt.",
 
     highlight1Title: "Was ich bauen kann",
-    highlight1Text: "Landingpages, Portfolios, Websites für kleine Unternehmen, Kontaktformulare",
+    highlight1Text: "Landingpages, Websites für kleine Unternehmen",
     highlight2Title: "Worauf ich achte",
-    highlight2Text: "Geschwindigkeit, Klarheit, Mobile-First-Design, gute UX",
+    highlight2Text: "Qualität, Klarheit, gute UX",
     highlight3Title: "Nächste Ziele",
     highlight3Text: "Mehr Projekte, stärkere Backend-Skills, besseres UI-Finishing",
 
@@ -141,7 +141,7 @@ Links (optional):`
     skillsHint: "Dinge, die ich jede Woche nutze und verbessere.",
 
     projectsTitle: "Projekte",
-    projectsHint: "Automatisch von GitHub geladen (du kannst ausgewählte Projekte anheften).",
+    projectsHint: "",
     featuredButton: "Ausgewählt",
     allReposButton: "Alle Repos",
     projectsNoteStrong: "",
@@ -149,7 +149,7 @@ Links (optional):`
 
     contactTitle: "Kontakt",
     contactHint: "Der schnellste Weg, mich zu erreichen.",
-    contactText: "Wenn du eine einfache Website möchtest (Portfolio, Landingpage oder Website für ein kleines Unternehmen), schreib mir einfach, was du brauchst. Ich antworte schnell und halte alles klar.",
+    contactText: "Wenn du ein Website möchtest , schreib mir einfach, was du brauchst.",
     emailLabel: "E-Mail",
     githubLabel: "GitHub",
     nameLabel: "Dein Name",
